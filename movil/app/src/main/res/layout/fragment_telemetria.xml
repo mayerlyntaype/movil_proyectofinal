@@ -80,7 +80,7 @@
 
         <LinearLayout
             android:id="@+id/linearLayout4"
-            android:layout_width="325dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
@@ -141,7 +141,9 @@
             android:layout_height="match_parent"
             android:background="#1AFFFFFF"
             android:src="@drawable/ic_baseline_line_axis_24"
-            tools:layout_editor_absoluteX="103dp" />
+            android:tint="@color/gris_oscuro"
+            tools:layout_editor_absoluteX="103dp"
+            tools:ignore="UseAppTint" />
 
 
     </LinearLayout>

@@ -21,7 +21,7 @@ class AutoHome : Fragment() {
             startActivity(intent)
         }
 
-        bind.autoEditar.setOnClickListener{
+        bind.autoInfo.setOnClickListener{
             val intent2 = Intent (this@AutoHome.requireContext(), DatosAuto::class.java)
             startActivity(intent2)
         }
